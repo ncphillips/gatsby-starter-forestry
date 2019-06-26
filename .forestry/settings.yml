@@ -4,6 +4,8 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: heading
+  label: Content
 - type: directory
   path: src/pages
   label: Pages
@@ -13,8 +15,6 @@ sections:
   templates:
   - page
   - blocks-page
-- type: heading
-  label: Content
 - type: directory
   path: src/pages/posts
   label: Posts
